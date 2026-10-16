@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", sans-serif;
+  --font-display: "Newsreader", serif;
+  --color-ink: oklch(0.22 0.025 145);
+  --color-cream: oklch(0.975 0.018 91);
+  --color-canvas: oklch(0.96 0.01 95);
+  --color-surface: oklch(1 0 0);
+  --color-line: oklch(0.89 0.018 110);
+  --color-muted: oklch(0.51 0.025 125);
+  --color-brand: oklch(0.38 0.09 150);
+  --color-brand-strong: oklch(0.31 0.08 150);
+  --color-brand-soft: oklch(0.93 0.04 145);
+  --color-accent: oklch(0.82 0.15 83);
+  --color-accent-strong: oklch(0.76 0.16 77);
+  --color-success: oklch(0.45 0.12 148);
+  --color-success-soft: oklch(0.94 0.045 145);
+  --color-warning: oklch(0.53 0.13 62);
+  --color-warning-soft: oklch(0.95 0.06 82);
+  --color-danger: oklch(0.52 0.19 27);
+  --color-danger-soft: oklch(0.95 0.04 27);
+}
+
+:root { font-family: var(--font-sans); color: var(--color-ink); background: var(--color-canvas); font-synthesis: none; text-rendering: optimizeLegibility; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-height: 100vh; }
+button, input, select, textarea { font: inherit; }

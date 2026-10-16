@@ -1,0 +1,11 @@
+{
+  "title": "HerdLedger — Secure Livestock Identity",
+  "description": "A tamper-evident digital livestock ownership and verification registry for Nigeria.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
